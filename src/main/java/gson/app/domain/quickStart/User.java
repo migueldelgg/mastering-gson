@@ -1,4 +1,4 @@
-package gson.app.domain;
+package gson.app.domain.quickStart;
 
 public class User {
 

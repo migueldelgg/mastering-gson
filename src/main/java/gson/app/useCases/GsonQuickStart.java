@@ -1,9 +1,9 @@
-package gson.app;
+package gson.app.useCases;
 
 import com.google.gson.Gson;
-import gson.app.domain.User;
+import gson.app.domain.quickStart.User;
 
-public class GsonUseCases {
+public class GsonQuickStart {
 
     public static void serializableUserSimple() {
         User user = new User("miguel",
@@ -17,7 +17,7 @@ public class GsonUseCases {
         System.out.println(myUserJson);
     }
 
-    public static void desrializableUserSimple() {
+    public static void deserializableUserSimple() {
         String user = "{\"name\":\"miguel\",\"email\":\"miguel@gmail.com\",\"age\":20,\"isDeveloper\":true}";
         Gson gson = new Gson();
 

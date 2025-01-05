@@ -1,0 +1,12 @@
+{
+  "name": "Miguel",
+  "email": "miguel@gmail.com",
+  "age": 20,
+  "isDeveloper": true,
+  "address": {
+    "street": "Avenida guarulhos",
+    "houseNumber": "609 - ap73B",
+    "city": "Guarulhos",
+    "country": "Brasil"
+  }
+}
